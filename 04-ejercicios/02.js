@@ -1,0 +1,19 @@
+function nombreResolucion(ancho, alto){
+    if( ancho > 7680 && alto > 4320){
+        return '8K';
+    }else if( ancho > 3880 && alto > 2160){
+        return '4k';
+    }else if( ancho > 2560 && alto > 1440){
+    return 'wqhd';
+    }else if( ancho > 1920 && alto > 1080){
+    return 'FHD';
+    }else if( ancho > 1280 && alto > 720){
+    return 'HD';
+    }else{
+        return false;
+    }
+
+}
+
+let nombre =  nombreResolucion(7680, 4320);
+console.log(nombre);
