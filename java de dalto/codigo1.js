@@ -1,1 +1,1 @@
-nombre = "lucas"
+"use strict"

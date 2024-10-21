@@ -1,0 +1,2 @@
+// si yo creo la variable utilizamos .prototype y si uktilizamos una existente .__proto__
+// utilizar "use strict" al principio del codigo te salva de errores ya que te los dice al momento.
