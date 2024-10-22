@@ -3,17 +3,17 @@ body {
     font-family: sans-serif;
 }
 
-.reloj {
-    background: linear-gradient(#111, #777);
-    border: 2px solid #000;
-    display: inline-flex;
-    border-radius: 5px;
+.t1{
+    background: url(t1.jpg);
 }
-
-.reloj div {
-    color: #fff;
-    padding: 5px 7px;
-    font-size: 20px;
-    font-family: monospace;
-    border: solid 2px #000;
+.t2{
+    background: url(t2.jpg);
+}
+.t3{
+    background: url(t3.jpg);
+}
+.zona{
+    margin: 10px;
+    background: #ddd;
+    height: 200px;
 }
