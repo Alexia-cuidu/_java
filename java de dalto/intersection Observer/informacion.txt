@@ -1,0 +1,19 @@
+Claro, aquí tienes los ejemplos en el formato que solicitaste:
+
+{
+    "Primera Frase",[{
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+} ,{
+    "Segunda Frase",
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+} ,{
+    "Tercera Frase",
+    Curabitur pretium tincidunt lacus, nulla et vulputate magna fermentum a.
+} ,{
+    "Cuarta Frase",
+    Mauris in erat justo, scelerisque dignissim purus id, sollicitudin gravida lorem.
+} ,{
+    "Quinta Frase",
+    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+}
+]}

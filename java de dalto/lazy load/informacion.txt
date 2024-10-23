@@ -1,0 +1,45 @@
+{
+    "content": [
+        {
+            "nombre": "Albert Einstein",
+            "contenido": "La imaginación es más importante que el conocimiento."
+        },
+        {
+            "nombre": "Mahatma Gandhi",
+            "contenido": "Sé el cambio que deseas ver en el mundo."
+        },
+        {
+            "nombre": "Confucio",
+            "contenido": "Elige un trabajo que te guste y no tendrás que trabajar ni un día de tu vida."
+        },
+        {
+            "nombre": "Nelson Mandela",
+            "contenido": "La educación es el arma más poderosa que puedes usar para cambiar el mundo."
+        },
+        {
+            "nombre": "Steve Jobs",
+            "contenido": "Tu tiempo es limitado, así que no lo desperdicies viviendo la vida de alguien más."
+        },
+        {
+            "nombre": "Maya Angelou",
+            "contenido": "He aprendido que la gente olvidará lo que dijiste, olvidará lo que hiciste, pero nunca olvidará cómo les hiciste sentir."
+        },
+        {
+            "nombre": "Winston Churchill",
+            "contenido": "El éxito es la capacidad de ir de fracaso en fracaso sin perder el entusiasmo."
+        },
+        {
+            "nombre": "Oscar Wilde",
+            "contenido": "Sé tú mismo; todos los demás ya están ocupados."
+        },
+        {
+            "nombre": "Martin Luther King Jr.",
+            "contenido": "La injusticia en cualquier parte es una amenaza a la justicia en todas partes."
+        },
+        {
+            "nombre": "C.S. Lewis",
+            "contenido": "Eres nunca demasiado viejo para establecer otra meta o soñar un nuevo sueño."
+        }
+    ]
+}
+
