@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extracción de Metadata de Imágenes</title>
+    <script src="https://cdn.jsdelivr.net/npm/exif-js"></script>
+</head>
+<body>
+    <h1>Extraer Metadata de una Imagen</h1>
+    <input type="file" id="imageInput" />
+    <pre id="metadataOutput"></pre>
+
+    <script>
+        document.getElementById('imageInput').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+
+            if (file) {
+                const reader = new FileReader();
+
+                reader.onload = function(e) {
+                    const imageData = e.target.result;
+
+                    // Usa EXIF.js para leer los metadatos EXIF
+                    EXIF.getData(file, function() {
+                        const allMetaData = EXIF.getAllTags(this);
+                        const metadataOutput = document.getElementById('metadataOutput');
+
+                        // Mostrar los metadatos en formato JSON
+                        metadataOutput.textContent = JSON.stringify(allMetaData, null, 4);
+
+                        // Opcional: acceder a metadatos específicos y mostrarlos en consola
+                        console.log('Fecha de captura:', EXIF.getTag(this, 'DateTime'));
+                        console.log('Modelo de cámara:', EXIF.getTag(this, 'Model'));
+                        console.log('Coordenadas GPS:', EXIF.getTag(this, 'GPSLatitude'), EXIF.getTag(this, 'GPSLongitude'));
+                    });
+                };
+
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+</body>
+</html>
