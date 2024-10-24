@@ -22,7 +22,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    height: 100%; /* Mantiene la altura dentro de la zona */
+    height: 100%;
     width: 0;
     background: rgba(76, 175, 80, 0.6);
     transition: width 0.2s;
